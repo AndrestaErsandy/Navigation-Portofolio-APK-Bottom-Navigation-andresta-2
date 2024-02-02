@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center"
+        tools:context=".FragmentHalamanProfil">
+
+        <!-- TODO: Update blank fragment layout -->
+        <EditText
+            android:id="@+id/edt_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edt_3"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"/>
+
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/resta"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/tv_resta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_resta"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/button_dashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_dashboard"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:textSize="25sp"
+            android:onClick="moveToOtherPage"/>
+
+
+    </LinearLayout>
+</layout>

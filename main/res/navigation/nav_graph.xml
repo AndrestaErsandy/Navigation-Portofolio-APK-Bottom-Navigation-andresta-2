@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentDashboard2">
+
+    <fragment
+        android:id="@+id/fragmentHalamanProfil"
+        android:name="com.example.belajarnavigation.FragmentHalamanProfil"
+        android:label="fragment_halaman_profil"
+        tools:layout="@layout/fragment_halaman_profil" >
+        <action
+            android:id="@+id/action_fragmentHalamanProfil_to_fragmentDashboard2"
+            app:destination="@id/fragmentDashboard2" />
+        <argument
+            android:name="nama_depan"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentHalamanPortofolio"
+        android:name="com.example.belajarnavigation.FragmentHalamanPortofolio"
+        android:label="fragment_halaman_portofolio"
+        tools:layout="@layout/fragment_halaman_portofolio" >
+        <action
+            android:id="@+id/action_fragmentHalamanPortofolio_to_fragmentDashboard2"
+            app:destination="@id/fragmentDashboard2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentHalamanDiklat"
+        android:name="com.example.belajarnavigation.FragmentHalamanDiklat"
+        android:label="fragment_halaman_diklat"
+        tools:layout="@layout/fragment_halaman_diklat" >
+        <action
+            android:id="@+id/action_fragmentHalamanDiklat_to_fragmentDashboard2"
+            app:destination="@id/fragmentDashboard2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDashboard2"
+        android:name="com.example.belajarnavigation.FragmentDashboard"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_fragmentDashboard2_to_fragmentHalamanProfil"
+            app:destination="@id/fragmentHalamanProfil" />
+        <action
+            android:id="@+id/action_fragmentDashboard2_to_fragmentHalamanDiklat"
+            app:destination="@id/fragmentHalamanDiklat" />
+        <action
+            android:id="@+id/action_fragmentDashboard2_to_fragmentHalamanPortofolio"
+            app:destination="@id/fragmentHalamanPortofolio" />
+    </fragment>
+</navigation>

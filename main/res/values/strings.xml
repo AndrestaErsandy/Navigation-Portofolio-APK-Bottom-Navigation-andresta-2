@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">BelajarNavigation</string>
+    <string name="input_a">Input A</string>
+    <string name="input_b">Input B</string>
+    <string name="hello">hello</string>
+    <string name="txtButtonHello">CLICK ME</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="edt_1">Nama Depan</string>
+    <string name="edt_2">Nama Belakang</string>
+    <string name="tv_1">Welcome To My App</string>
+    <string name="btn_profil">Tampilan Profil</string>
+    <string name="btn_portofolio">Tampilan Portofolio</string>
+    <string name="btn_diklat">Tampilan Diklat</string>
+    <string name="edt_3">Nama Depan</string>
+    <string name="edt_4">Nama Belakang</string>
+    <string name="tv_resta">Andresta Ersandy</string>
+    <string name="button_dashboard">Dashboard</string>
+    <string name="tv_pf">Portofolio</string>
+    <string name="tv_ae">Andresta Ersandy</string>
+    <string name="tv_17">17 tahun</string>
+    <string name="tv_alamat">Malang, Blimbing JL.LA Sucipto Gang 22A</string>
+    <string name="tv_pendidikan">Pendidikan:</string>
+    <string name="tv_sdn">SDN PANDANWANGI 1</string>
+    <string name="tv_smp">SMPN 24 MALANG</string>
+    <string name="tv_smk">SMKN 12 MALANG</string>
+    <string name="tv_deskripsi">Saya Andresta, seorang pelajar smk dengan latar belakang Rekayasa Perangkat Lunak. Pengalaman saya terutama di pengembangan aplikasi mobile dan web.</string>
+    <string name="btn_lihat">Lihat Detail</string>
+    <string name="tv_diklat">Diklat yang Pernah Diikuti</string>
+    <string name="tv_nama">Nama Diklat: Training Android Development</string>
+    <string name="tv_tanggal">Tanggal: 01 Januari 2024</string>
+    <string name="tv_kesan">Kesan dan Pendapat:</string>
+    <string name="tv_lainnya">Diklat ini sangat bermanfaat untuk meningkatkan pemahaman saya dalam pengembangan aplikasi Android. Instrukturnya sangat kompeten dan materi yang disampaikan mudah dipahami. Saya merasa lebih percaya diri setelah mengikuti diklat ini.</string>
+    <string name="btn_mbalek">Lihat Detail</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_this_is_about_page">Hello, this is \'about\' page</string>
+    <string name="home">home</string>
+    <string name="profile">profile</string>
+    <string name="study">study</string>
+    <string name="works">works</string>
+
+</resources>
